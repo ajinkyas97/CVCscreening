@@ -6,8 +6,8 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 from collections import Counter
 
-PDFS_FOLDER = ("C:\\Users\HP\pdfs") #get the pdfs from this directory
-save_to = ('C:\\Users\HP\Outputs\\')  #save the csv with all the content in this location
+PDFS_FOLDER = ("""Mention the absolute path to the directory here""") #get the pdfs from this directory
+save_to = ("""Mention the absolute path to the directory here""")  #save the csv with all the content in this location
 
 def get_all_pdfs(folder_path):
     """
